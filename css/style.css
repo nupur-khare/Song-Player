@@ -1,0 +1,120 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background: url("../media/head2.jpg") no-repeat center;
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 88%;
+    margin-right: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col {
+    margin-left: 2%;
+}
+
+.left-col h1 {
+    font-size: 80px;
+    color: cornsilk;
+    line-height: 80px;
+    float: left;
+}
+
+.right-col {
+    float: right;
+    margin-right: auto;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p {
+    font-size: 25px;
+    color: cornsilk;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+#icon {
+    width: 70px;
+    cursor: pointer;
+}
+/*------meadi for desktop and laptos-----*/
+@media (max-width: 1155px){
+    .right-col {
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+   }
+   #icon {
+    width: 55px;
+    cursor: pointer;
+}
+}
+/*------meadi for mobile phones-----*/
+@media (max-width: 768px) {
+    .right-col {
+    width: 100%;
+    height: auto;
+    margin-left: 6%;
+   }
+   .right-col p {
+    font-size: 25px;
+    color: rgb(17, 16, 10);
+    font-weight: 400;
+    margin-right: 15px;
+}
+   .left-col {
+    width: 100%;
+}
+.left-col h1 {
+    font-size: 45px;
+    color: rgb(17, 16, 10);
+    line-height: 40px;
+    float: left;
+}
+#icon {
+    width: 55px;
+    cursor: pointer;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(17, 16, 10);
+    font-size: 25px;
+    font-weight: 300;
+}
+}
